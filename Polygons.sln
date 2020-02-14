@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polygons", "Polygons\Polygons.csproj", "{03A5499D-7DF0-492A-AC9C-516068704893}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polygons.Library", "Polygons.Library\Polygons.Library.csproj", "{B5225F1E-4318-4ADF-8714-98CE4E1E433E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{03A5499D-7DF0-492A-AC9C-516068704893}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03A5499D-7DF0-492A-AC9C-516068704893}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03A5499D-7DF0-492A-AC9C-516068704893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5225F1E-4318-4ADF-8714-98CE4E1E433E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5225F1E-4318-4ADF-8714-98CE4E1E433E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5225F1E-4318-4ADF-8714-98CE4E1E433E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5225F1E-4318-4ADF-8714-98CE4E1E433E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
