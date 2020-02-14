@@ -3,21 +3,23 @@ namespace Polygons.Library
 {
     public class Octagon : IRegularPolygon
     {
-        public Octagon()
-        {
-        }
+        public int NumberOfSides { get; set; }
+        public int SideLength { get; set; }
 
-        public int NumberOfSides { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public int SideLength { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public Octagon(int length)
+        {
+            NumberOfSides = 8;
+            SideLength = length;
+        }
 
         public double GetArea()
         {
-            throw new NotImplementedException();
+            return NumberOfSides + SideLength;
         }
 
         public double GetPerimeter()
         {
-            throw new NotImplementedException();
+            return SideLength * SideLength * (2 + 2 * Math.Sqrt(2));
         }
     }
 }
